@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "aJg3GLQdu5f9uA5DQqju+AYM7iGfOyAUtviBPGG7evMhiur5356pApvk7LhfxfKqMDcr01d/4Ta48xO9X+0pPg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yo-re\\Documents\\prog\\cs\\lexicon\\OOPBasics\\OOPBasics.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yo-re\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.1\\microsoft.netcore.app.ref.8.0.1.nupkg.sha512",
+    "C:\\Users\\yo-re\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.1\\microsoft.windowsdesktop.app.ref.8.0.1.nupkg.sha512",
+    "C:\\Users\\yo-re\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.1\\microsoft.aspnetcore.app.ref.8.0.1.nupkg.sha512",
+    "C:\\Users\\yo-re\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.1\\microsoft.netcore.app.host.win-x64.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

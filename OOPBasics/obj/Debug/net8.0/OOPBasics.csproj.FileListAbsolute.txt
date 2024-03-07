@@ -1,0 +1,15 @@
+C:\Users\yo-re\Documents\prog\cs\lexicon\OOPBasics\bin\Debug\net8.0\OOPBasics.exe
+C:\Users\yo-re\Documents\prog\cs\lexicon\OOPBasics\bin\Debug\net8.0\OOPBasics.deps.json
+C:\Users\yo-re\Documents\prog\cs\lexicon\OOPBasics\bin\Debug\net8.0\OOPBasics.runtimeconfig.json
+C:\Users\yo-re\Documents\prog\cs\lexicon\OOPBasics\bin\Debug\net8.0\OOPBasics.dll
+C:\Users\yo-re\Documents\prog\cs\lexicon\OOPBasics\bin\Debug\net8.0\OOPBasics.pdb
+C:\Users\yo-re\Documents\prog\cs\lexicon\OOPBasics\obj\Debug\net8.0\OOPBasics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yo-re\Documents\prog\cs\lexicon\OOPBasics\obj\Debug\net8.0\OOPBasics.AssemblyInfoInputs.cache
+C:\Users\yo-re\Documents\prog\cs\lexicon\OOPBasics\obj\Debug\net8.0\OOPBasics.AssemblyInfo.cs
+C:\Users\yo-re\Documents\prog\cs\lexicon\OOPBasics\obj\Debug\net8.0\OOPBasics.csproj.CoreCompileInputs.cache
+C:\Users\yo-re\Documents\prog\cs\lexicon\OOPBasics\obj\Debug\net8.0\OOPBasics.sourcelink.json
+C:\Users\yo-re\Documents\prog\cs\lexicon\OOPBasics\obj\Debug\net8.0\OOPBasics.dll
+C:\Users\yo-re\Documents\prog\cs\lexicon\OOPBasics\obj\Debug\net8.0\refint\OOPBasics.dll
+C:\Users\yo-re\Documents\prog\cs\lexicon\OOPBasics\obj\Debug\net8.0\OOPBasics.pdb
+C:\Users\yo-re\Documents\prog\cs\lexicon\OOPBasics\obj\Debug\net8.0\OOPBasics.genruntimeconfig.cache
+C:\Users\yo-re\Documents\prog\cs\lexicon\OOPBasics\obj\Debug\net8.0\ref\OOPBasics.dll
