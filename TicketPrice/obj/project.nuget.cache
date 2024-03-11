@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M7jy10egWgm1r5LqSsN7eIM60sy3TWozBYj6yKd+2/FmhA+oOo0dYnTKQs7xN3VthbCczdZ8p1Rv/opQWJV9Ug==",
+  "dgSpecHash": "1kIal3jzB9PylODT1HT60Gkm25iK8PvSfj0FDTjBFdx/a+4PtaWoAg2g3iI1GvZ3Nq1ixVhhjqOgucQzb7SWLQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\yo-re\\Documents\\prog\\cs\\lexicon\\TicketPrice\\TicketPrice.csproj",
+  "projectFilePath": "C:\\Users\\yo-re\\Documents\\prog\\cs\\lexicon\\TicketPrice\\TicketPrice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yo-re\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.1\\microsoft.netcore.app.ref.8.0.1.nupkg.sha512",
     "C:\\Users\\yo-re\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.1\\microsoft.windowsdesktop.app.ref.8.0.1.nupkg.sha512",
