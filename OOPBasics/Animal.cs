@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
-namespace OOPBasics
+﻿namespace OOPBasics
 {
 	public abstract class Animal
 	{
@@ -13,6 +11,13 @@ namespace OOPBasics
 			Name = name;
 			Age = age;
 			Weight = weight;
+		}
+
+
+		// Virtual method that can be overriden in derived classes
+		public virtual string Stats()
+		{
+			return $"Name: {Name}, Age: {Age}, Weight: {Weight}";
 		}
 
 
@@ -49,6 +54,11 @@ namespace OOPBasics
 		{
 			Console.WriteLine("Horse says HIHIHIHIHI");
 		}
+
+		public override string Stats()
+		{
+			return base.Stats() + $", Is Tamed: {IsTamed}";
+		}
 	}
 
 	public class Dog(string name, int age, double weight, bool isHunter) : Animal(name, age, weight)
@@ -58,6 +68,11 @@ namespace OOPBasics
 		public override void DoSound()
 		{
 			Console.WriteLine("Dog says AUAUAUAUAUAU");
+		}
+
+		public override string Stats()
+		{
+			return base.Stats() + $", Is Hunter: {IsHunter}";
 		}
 
 	}
@@ -71,6 +86,12 @@ namespace OOPBasics
 		{
 			Console.WriteLine("Hedgehog says GOTTA GO FAST");
 		}
+
+
+		public override string Stats()
+		{
+			return base.Stats() + $", Number of spikes: {NrOfSpikes}";
+		}
 	}
 
 
@@ -80,6 +101,11 @@ namespace OOPBasics
 		public override void DoSound()
 		{
 			Console.WriteLine("Worm says hishshs");
+		}
+
+		public override string Stats()
+		{
+			return base.Stats() + $", is poisonous: {IsPoisonous}";
 		}
 	}
 
@@ -91,6 +117,12 @@ namespace OOPBasics
 		{
 			Console.WriteLine("Wolf says oooOOOOOOUUUUUUU");
 		}
+
+		public override string Stats()
+		{
+			return base.Stats() + $", is vegan: {IsVegan}";
+		}
+
 	}
 
 
@@ -102,27 +134,42 @@ namespace OOPBasics
 		{
 			Console.WriteLine("Bird says Chirp Chirp");
 		}
+
+		public override string Stats()
+		{
+			return base.Stats() + $", has a wingspan: {WingSpan} meters";
+		}
 	}
 
 
 	// Pelican is sub-drived from Bird
-	public class Pelican(string name, int age, double weight, double wingSpan, bool lovesSwim) : Bird(name, age, weight, wingSpan)
+	public class Pelican(string name, int age, double weight, double wingSpan, bool isDancer) : Bird(name, age, weight, wingSpan)
 	{
 
-		public bool LovesSwim { get; set; } = lovesSwim;
+		public bool IsDancer { get; set; } = isDancer;
 		public override void DoSound()
 		{
 			Console.WriteLine("Plican says shoooooooooooow");
 		}
+
+		public override string Stats()
+		{
+			return base.Stats() + $", is a dancer: {IsDancer}";
+		}
 	}
 
-	public class Flamingo(string name, int age, double weight, double wingspan, bool isNotPink) : Bird(name, age, weight, wingspan)
+	public class Flamingo(string name, int age, double weight, double wingspan, bool isPink) : Bird(name, age, weight, wingspan)
 	{
-		public bool IsNotPink { get; set; } = isNotPink;
+		public bool IsPink { get; set; } = isPink;
 
 		public override void DoSound()
 		{
 			Console.WriteLine("Flamingo says HAKHAKHAKHAK");
+		}
+
+		public override string Stats()
+		{
+			return base.Stats() + $", is pink: {IsPink}";
 		}
 	}
 
@@ -134,6 +181,10 @@ namespace OOPBasics
 		public override void DoSound()
 		{
 			Console.WriteLine("Swan says Quack Quack");
+		}
+		public override string Stats()
+		{
+			return base.Stats() + $", does attack: {DoAttack}";
 		}
 	}
 
@@ -153,7 +204,4 @@ namespace OOPBasics
 		}
 	}
 
-
-
 }
-
