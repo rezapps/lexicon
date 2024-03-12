@@ -1,4 +1,4 @@
-﻿namespace OOPBasics
+namespace OOPBasics
 {
 	public abstract class Animal
 	{
@@ -22,7 +22,8 @@
 
 
 		public abstract void DoSound();
-	}
+		// internal abstract bool SomeString();
+	} // Class Animal Ends
 
 
 	/*
@@ -59,7 +60,7 @@
 		{
 			return base.Stats() + $", Is Tamed: {IsTamed}";
 		}
-	}
+	} // Class Horse Ends
 
 	public class Dog(string name, int age, double weight, bool isHunter) : Animal(name, age, weight)
 	{
@@ -70,12 +71,18 @@
 			Console.WriteLine("Dog says AUAUAUAUAUAU");
 		}
 
+		public string SomeString()
+		{
+			return "Some String from the Dog class";
+		}
+
+
 		public override string Stats()
 		{
 			return base.Stats() + $", Is Hunter: {IsHunter}";
 		}
 
-	}
+	} // Class Dog Ends
 
 
 	public class Hedgehog(string name, int age, double weight, int nrOfSpikes) : Animal(name, age, weight)
@@ -92,7 +99,7 @@
 		{
 			return base.Stats() + $", Number of spikes: {NrOfSpikes}";
 		}
-	}
+	} // Class Hedgehog Ends
 
 
 	public class Worm(string name, int age, double weight, bool isPoisonous) : Animal(name, age, weight)
@@ -107,7 +114,7 @@
 		{
 			return base.Stats() + $", is poisonous: {IsPoisonous}";
 		}
-	}
+	} // Class Worm Ends
 
 
 	public class Wolf(string name, int age, double weight, bool isVegan) : Animal(name, age, weight)
@@ -123,7 +130,7 @@
 			return base.Stats() + $", is vegan: {IsVegan}";
 		}
 
-	}
+	} // Class Wolf Ends
 
 
 	// Bird is drived from Animal class and inherits all properties
@@ -139,7 +146,7 @@
 		{
 			return base.Stats() + $", has a wingspan: {WingSpan} meters";
 		}
-	}
+	} // Class Bird Ends
 
 
 	// Pelican is sub-drived from Bird
@@ -156,7 +163,7 @@
 		{
 			return base.Stats() + $", is a dancer: {IsDancer}";
 		}
-	}
+	} // Class Pelican Ends
 
 	public class Flamingo(string name, int age, double weight, double wingspan, bool isPink) : Bird(name, age, weight, wingspan)
 	{
@@ -171,7 +178,7 @@
 		{
 			return base.Stats() + $", is pink: {IsPink}";
 		}
-	}
+	} // Class Flamingo Ends
 
 
 	public class Swan(string name, int age, double weight, double wingspan, bool doAttack) : Bird(name, age, weight, wingspan)
@@ -186,7 +193,7 @@
 		{
 			return base.Stats() + $", does attack: {DoAttack}";
 		}
-	}
+	} // Class Swan Ends
 
 
 	// Interface
@@ -200,8 +207,8 @@
 	{
 		public void Talk()
 		{
-			Console.WriteLine("Wolfman says oooOOOOOOUUUUUUU");
+			Console.WriteLine("Wolfman says: AwwwwoooOOOLLFF-man is not the same as a ware-wooooooooollf");
 		}
-	}
+	} // Class Wolfman Ends
 
 }

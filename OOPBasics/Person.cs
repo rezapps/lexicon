@@ -70,5 +70,6 @@
 			FirstName = firstName;
 			LastName = lastName;
 		}
-	}
+
+	} // Class Person Ends
 }
